@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{584DFF59-4B39-440A-A2E8-5DA4A989E5C4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>otomasyon</RootNamespace>
+    <AssemblyName>otomasyon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_Ana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Ana.Designer.cs">
+      <DependentUpon>Form_Ana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_kategori_guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_kategori_guncelle.Designer.cs">
+      <DependentUpon>frm_kategori_guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_kategori_kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_kategori_kayit.Designer.cs">
+      <DependentUpon>frm_kategori_kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_kategori_listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_kategori_listele.Designer.cs">
+      <DependentUpon>frm_kategori_listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_kullanici_giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_kullanici_giris.Designer.cs">
+      <DependentUpon>frm_kullanici_giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_kullanici_guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_kullanici_guncelle.Designer.cs">
+      <DependentUpon>frm_kullanici_guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_kullanici_kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_kullanici_kayit.Designer.cs">
+      <DependentUpon>frm_kullanici_kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_kullanici_listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_kullanici_listele.Designer.cs">
+      <DependentUpon>frm_kullanici_listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_musteri_guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_musteri_guncelle.Designer.cs">
+      <DependentUpon>frm_musteri_guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_musteri_listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_musteri_listele.Designer.cs">
+      <DependentUpon>frm_musteri_listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_satis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_satis.Designer.cs">
+      <DependentUpon>frm_satis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_urun_guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_urun_guncelle.Designer.cs">
+      <DependentUpon>frm_urun_guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_urun_kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_urun_kayit.Designer.cs">
+      <DependentUpon>frm_urun_kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_urun_listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_urun_listele.Designer.cs">
+      <DependentUpon>frm_urun_listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musteritakip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteritakip.Designer.cs">
+      <DependentUpon>musteritakip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_Ana.resx">
+      <DependentUpon>Form_Ana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_kategori_guncelle.resx">
+      <DependentUpon>frm_kategori_guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_kategori_kayit.resx">
+      <DependentUpon>frm_kategori_kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_kategori_listele.resx">
+      <DependentUpon>frm_kategori_listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_kullanici_giris.resx">
+      <DependentUpon>frm_kullanici_giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_kullanici_guncelle.resx">
+      <DependentUpon>frm_kullanici_guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_kullanici_kayit.resx">
+      <DependentUpon>frm_kullanici_kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_kullanici_listele.resx">
+      <DependentUpon>frm_kullanici_listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_musteri_guncelle.resx">
+      <DependentUpon>frm_musteri_guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_musteri_listele.resx">
+      <DependentUpon>frm_musteri_listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_satis.resx">
+      <DependentUpon>frm_satis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_urun_guncelle.resx">
+      <DependentUpon>frm_urun_guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_urun_kayit.resx">
+      <DependentUpon>frm_urun_kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_urun_listele.resx">
+      <DependentUpon>frm_urun_listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteritakip.resx">
+      <DependentUpon>musteritakip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kullanıcı.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\şifre.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
