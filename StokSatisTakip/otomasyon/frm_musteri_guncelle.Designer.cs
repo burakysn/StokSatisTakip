@@ -133,6 +133,7 @@
             // 
             // frm_musteri_guncelle
             // 
+            this.AcceptButton = this.btn_guncelle;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
@@ -148,7 +149,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frm_musteri_guncelle";
-            this.Text = "frm_musteri_guncelle";
+            this.Text = "MÜŞTERİ GÜNCELLE";
             this.Load += new System.EventHandler(this.frm_musteri_guncelle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

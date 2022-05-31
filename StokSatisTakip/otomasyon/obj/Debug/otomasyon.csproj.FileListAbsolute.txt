@@ -62,28 +62,28 @@ C:\Users\BURAK\Desktop\oto\otomasyon\obj\Debug\otomasyon.csproj.CoreCompileInput
 C:\Users\BURAK\Desktop\oto\otomasyon\obj\Debug\otomasyon.exe
 C:\Users\BURAK\Desktop\oto\otomasyon\obj\Debug\otomasyon.pdb
 C:\Users\BURAK\Desktop\oto\otomasyon\obj\Debug\otomasyon.frm_satis.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\bin\Debug\otomasyon.exe.config
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\bin\Debug\otomasyon.exe
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\bin\Debug\otomasyon.pdb
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.csproj.AssemblyReference.cache
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.csproj.SuggestedBindingRedirects.cache
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.Form_Ana.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.frm_kategori_guncelle.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.frm_kategori_kayit.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.frm_kategori_listele.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.frm_kullanici_giris.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.frm_kullanici_guncelle.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.frm_kullanici_kayit.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.frm_kullanici_listele.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.frm_musteri_guncelle.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.frm_musteri_listele.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.frm_satis.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.frm_urun_guncelle.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.frm_urun_kayit.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.frm_urun_listele.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.musteritakip.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.Properties.Resources.resources
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.csproj.GenerateResource.cache
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.csproj.CoreCompileInputs.cache
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.exe
-C:\Users\burak\OneDrive\Masaüstü\Yeni klasör (2)\otomasyon\obj\Debug\otomasyon.pdb
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\bin\Debug\otomasyon.exe.config
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\bin\Debug\otomasyon.exe
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\bin\Debug\otomasyon.pdb
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.csproj.AssemblyReference.cache
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.csproj.SuggestedBindingRedirects.cache
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.Form_Ana.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.frm_kategori_guncelle.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.frm_kategori_kayit.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.frm_kategori_listele.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.frm_kullanici_giris.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.frm_kullanici_guncelle.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.frm_kullanici_kayit.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.frm_kullanici_listele.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.frm_musteri_guncelle.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.frm_musteri_listele.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.frm_satis.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.frm_urun_guncelle.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.frm_urun_kayit.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.frm_urun_listele.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.musteritakip.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.Properties.Resources.resources
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.csproj.GenerateResource.cache
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.csproj.CoreCompileInputs.cache
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.exe
+C:\Users\burak\OneDrive\Masaüstü\StokSatisTakip\otomasyon\obj\Debug\otomasyon.pdb

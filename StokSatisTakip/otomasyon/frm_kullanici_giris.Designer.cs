@@ -35,6 +35,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -54,7 +55,7 @@
             this.txt_sifre.Location = new System.Drawing.Point(353, 170);
             this.txt_sifre.Name = "txt_sifre";
             this.txt_sifre.Size = new System.Drawing.Size(165, 26);
-            this.txt_sifre.TabIndex = 0;
+            this.txt_sifre.TabIndex = 1;
             // 
             // btn_giris
             // 
@@ -63,7 +64,7 @@
             this.btn_giris.Location = new System.Drawing.Point(353, 226);
             this.btn_giris.Name = "btn_giris";
             this.btn_giris.Size = new System.Drawing.Size(165, 38);
-            this.btn_giris.TabIndex = 1;
+            this.btn_giris.TabIndex = 3;
             this.btn_giris.Text = "GİRİŞ";
             this.btn_giris.UseVisualStyleBackColor = true;
             this.btn_giris.Click += new System.EventHandler(this.btn_giris_Click);
@@ -105,11 +106,25 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // btn
+            // 
+            this.btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn.Location = new System.Drawing.Point(689, 1);
+            this.btn.Name = "btn";
+            this.btn.Size = new System.Drawing.Size(31, 32);
+            this.btn.TabIndex = 5;
+            this.btn.Text = "X";
+            this.btn.UseVisualStyleBackColor = true;
+            this.btn.Click += new System.EventHandler(this.btn_Click);
+            // 
             // frm_kullanici_giris
             // 
+            this.AcceptButton = this.btn_giris;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(720, 433);
+            this.ControlBox = false;
+            this.Controls.Add(this.btn);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
@@ -119,7 +134,7 @@
             this.Controls.Add(this.txt_kullanici);
             this.Name = "frm_kullanici_giris";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frm_kullanici_giris";
+            this.Text = "KULLANICI GİRİŞ EKRANI";
             this.Load += new System.EventHandler(this.frm_kullanici_giris_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -138,5 +153,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button btn;
     }
 }

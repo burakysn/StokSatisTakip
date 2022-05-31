@@ -20,33 +20,38 @@ namespace otomasyon
             InitializeComponent();
         }
         SqlConnection baglanti = new SqlConnection(Form_Ana.baglanti);
+        private void btn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
 
         private void btn_giris_Click(object sender, EventArgs e)
         {
-            try
+            if (txt_kullanici.Text == "" || txt_sifre.Text == "") 
             {
-
-                baglanti.Open();
-                string sql = "Select * from admin where a_ad=@adi and a_sifre=@sifresi";
-                SqlParameter prm1 = new SqlParameter("adi", txt_kullanici.Text.Trim());
-                SqlParameter prm2 = new SqlParameter("sifresi", txt_sifre.Text.Trim());
-                SqlCommand komut = new SqlCommand(sql, baglanti);
-                komut.Parameters.Add(prm1);
-                komut.Parameters.Add(prm2);
-                DataTable dt = new DataTable();
-                SqlDataAdapter da = new SqlDataAdapter(komut);
-                da.Fill(dt);
-
-                if (dt.Rows.Count > 0)
-                {
-
-                    this.Close();
-                }
+                MessageBox.Show("Lütfen Boş Alan Bırakmayınız");
             }
-            catch(Exception)
-            
+            else { 
+            baglanti.Open();
+
+            string user;
+            string password;
+            user = txt_kullanici.Text;
+            password = txt_sifre.Text;
+
+            SqlCommand komut = new SqlCommand("select * from admin where a_ad='" + user + "' and a_sifre='" + password + "' ", baglanti);
+            SqlDataReader oku = komut.ExecuteReader();
+            if (oku.Read())
             {
-                MessageBox.Show("Bilgiler Yanlış");
+                
+                this.Close();
+
+            }
+            else
+            {
+                MessageBox.Show("Hatalı Kullanıcı Girişi");
+            }
+            baglanti.Close();
             }
         }
 
@@ -55,5 +60,7 @@ namespace otomasyon
             txt_sifre.PasswordChar = '*';
 
         }
+
+       
     }
 }

@@ -48,7 +48,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(42, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 16);
+            this.label1.Size = new System.Drawing.Size(130, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "KATEGORİ TÜRÜ";
             // 
@@ -76,12 +76,13 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(42, 100);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 16);
+            this.label2.Size = new System.Drawing.Size(112, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "KATEGORİ ADI";
             // 
             // frm_kategori_kayit
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
@@ -91,7 +92,7 @@
             this.Controls.Add(this.txt_adi);
             this.Controls.Add(this.txt_tur);
             this.Name = "frm_kategori_kayit";
-            this.Text = "frm_kategori_kayit";
+            this.Text = "KATEGORİ KAYIT";
             this.ResumeLayout(false);
             this.PerformLayout();
 

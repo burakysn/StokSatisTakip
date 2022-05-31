@@ -42,6 +42,8 @@
             this.kategoriEkleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kategoriListeisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.satışToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.çIKIŞToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +54,9 @@
             this.müşteriToolStripMenuItem,
             this.ürünToolStripMenuItem,
             this.kategoriToolStripMenuItem,
-            this.satışToolStripMenuItem});
+            this.satışToolStripMenuItem,
+            this.çIKIŞToolStripMenuItem,
+            this.toolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 29);
@@ -164,6 +168,20 @@
             this.satışToolStripMenuItem.Text = "Satış";
             this.satışToolStripMenuItem.Click += new System.EventHandler(this.satışToolStripMenuItem_Click);
             // 
+            // çIKIŞToolStripMenuItem
+            // 
+            this.çIKIŞToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.çIKIŞToolStripMenuItem.Name = "çIKIŞToolStripMenuItem";
+            this.çIKIŞToolStripMenuItem.Size = new System.Drawing.Size(58, 25);
+            this.çIKIŞToolStripMenuItem.Text = "Çıkış";
+            this.çIKIŞToolStripMenuItem.Click += new System.EventHandler(this.çIKIŞToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(22, 25);
+            this.toolStripMenuItem1.Text = " ";
+            // 
             // Form_Ana
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -200,6 +218,8 @@
         private System.Windows.Forms.ToolStripMenuItem kategoriEkleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kategoriListeisToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem satışToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem çIKIŞToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }
 

@@ -49,7 +49,7 @@ namespace otomasyon
             " satis.s_id as 'Satış No' , musteri.m_adi as 'ADI' ,  " +
             " urun.u_adi as 'ÜRÜN ADI' , satis.s_adet as 'Adet' ,  urun.u_fiyat as 'FİYAT' , (urun.u_fiyat*satis.s_adet) as 'TUTAR'  from satis " +
             " left join musteri on satis.s_m_id=musteri.m_id " +
-            " left join urun on urun.u_id=satis.s_u_id ";
+            " left join urun on urun.u_id=satis.s_u_id";
 
             SqlConnection con = new SqlConnection(Form_Ana.baglanti);
             SqlDataAdapter da = new SqlDataAdapter(sql, con);

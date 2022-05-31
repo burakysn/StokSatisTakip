@@ -102,6 +102,7 @@
             // 
             // frm_urun_listele
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 467);
@@ -110,7 +111,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "frm_urun_listele";
-            this.Text = "frm_urun_listele";
+            this.Text = "ÜRÜN LİSTESİ";
             this.Activated += new System.EventHandler(this.frm_urun_listele_Activated);
             this.Load += new System.EventHandler(this.frm_urun_listele_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

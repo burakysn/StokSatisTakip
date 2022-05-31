@@ -41,7 +41,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(49, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 16);
+            this.label1.Size = new System.Drawing.Size(130, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "KATEGORİ TÜRÜ";
             // 
@@ -58,7 +58,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(49, 113);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 16);
+            this.label2.Size = new System.Drawing.Size(112, 16);
             this.label2.TabIndex = 0;
             this.label2.Text = "KATEGORİ ADI";
             // 
@@ -82,6 +82,7 @@
             // 
             // frm_kategori_guncelle
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(648, 450);
@@ -91,7 +92,7 @@
             this.Controls.Add(this.txt_turu);
             this.Controls.Add(this.label1);
             this.Name = "frm_kategori_guncelle";
-            this.Text = "frm_kategori_guncelle";
+            this.Text = "KATEGORİ GÜNCELLE";
             this.Load += new System.EventHandler(this.frm_kategori_guncelle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

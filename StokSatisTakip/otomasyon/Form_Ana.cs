@@ -79,5 +79,10 @@ namespace otomasyon
             frm_satis a = new frm_satis();
             a.ShowDialog();
         }
+
+        private void çIKIŞToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
